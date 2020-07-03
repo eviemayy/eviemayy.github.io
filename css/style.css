@@ -1,0 +1,49 @@
+
+.welcome-header{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+.welcome-body{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: 'Roboto';
+  }
+  
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+
+.topnav .name-header {
+    float: left;
+}
+
+.topnav .name-header:hover {
+    background-color: white;
+    color: black;
+  }
