@@ -6,6 +6,7 @@ body{
 .topnav {
     overflow: hidden;
     font-family: 'Roboto';
+    flex-shrink: 0;
   }
   
 
@@ -29,6 +30,7 @@ body{
 
 .topnav .name-header {
     float: left;
+    font-weight: bold;
 }
 
 .topnav .name-header:hover {
@@ -65,4 +67,18 @@ body{
 .about{
     padding-right: 30px;
     width: 500px;
+}
+
+/* footer */
+
+.footer-container{
+    font-family: 'Roboto';
+    color: black;
+    font-size: 10px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
 }
