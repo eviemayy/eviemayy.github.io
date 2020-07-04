@@ -1,16 +1,6 @@
-
-.welcome{
-    color: black;
+body{
     font-family: 'Roboto';
-    padding: 40px; 
-}
-
-.welcome-header{   
-    font-size: 70px;  
-}
-
-.welcome-body{
-    font-size: 50px;
+    color: black;
 }
 
 .topnav {
@@ -45,3 +35,34 @@
     background-color: white;
     color: black;
   }
+
+
+.page-content{
+    padding: 40px;
+}
+
+.welcome-header{   
+    font-size: 70px;  
+}
+
+.welcome-body{
+    font-size: 50px;
+}
+
+.spacer{
+    padding: 200px;
+}
+
+.welcome-header{   
+    font-size: 50px;  
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    padding-right: 30px;
+    width: 500px;
+}
