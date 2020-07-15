@@ -4,11 +4,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #303453;
-    background: #F4EEFF;
+    background: white;
 }
 
 .page-content{
-    padding: 40px;
+    padding: 60px;
 }
 
 /************** HOME PAGE STUFF **************/
@@ -21,8 +21,9 @@ body{
 
 .welcome-header{   
     font-size: 80px;  
-    margin-bottom: 0;
+    margin: 0px;
     font-weight: 500;
+    /*padding: top right bottom left*/
 }
 
 .welcome-subheader{
@@ -76,7 +77,8 @@ body{
     width: 300px;
     height: 300px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding: 50px;
 }
 
 .about{
@@ -86,7 +88,7 @@ body{
 
 .about-resume-container{
     padding-left: 135px;  
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .chip{
@@ -115,6 +117,7 @@ body{
     position: relative; 
     padding: 15px 0;
   }
+
   a {
     color: #303453;
     text-transform: uppercase;
@@ -156,27 +159,13 @@ body{
 
 
 
-  /************** FOOTER **************/
-
-.footer-container{
-    font-family: 'Roboto';
-    color: #303453;
-    font-size: 10px;
-    height: 40px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 56px;
-}
-
-
 /************* PLAY PAGE ******************/
 
 .gallery{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 50px;
 }
   
 .gallery-item{
@@ -187,4 +176,16 @@ img {
     height: 500px;
     max-width: 100%;
   }
+
+
+  /************** FOOTER **************/
+
+  footer .container{
+    font-family: 'Poppins', sans-serif;
+    color: #303453;
+    font-size: 12px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
 
