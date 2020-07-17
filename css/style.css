@@ -11,6 +11,11 @@ body{
     padding: 60px;
 }
 
+.textcolor{
+    color: blue;
+    font-weight: 400;
+}
+
 /************** HOME PAGE STUFF **************/
 
 .welcome{
@@ -46,9 +51,81 @@ body{
     width: 500px;
 }
 
-.spacer{
-    padding: 200px;
+.welcome-contact{
+    color: blue;
+    text-decoration: none;
 }
+
+.fa{
+    color: #303453;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+/************** PROJECTS SECTION **************/
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    padding-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projects-header{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 60px;
+    padding-top: 0px;
+    margin-left: 100px;
+}
+
+.project-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    width: 900px;
+}
+
+.project-img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.project-text{
+    padding-left: 30px;
+}
+
+.project-title{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.project-link{
+    border-style: solid;
+    border-color: #303453;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.project-link:hover{
+    border-style: solid;
+    border-color: #303453;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #303453;
+}
+
 
 /************** ABOUT PAGE **************/
 
@@ -118,7 +195,7 @@ body{
     padding: 15px 0;
   }
 
-  a {
+  .navstyle {
     color: #303453;
     text-transform: uppercase;
     text-decoration: none;
@@ -129,7 +206,7 @@ body{
     position: relative;
   }
 
-  a:after {    
+  .navstyle:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -142,7 +219,7 @@ body{
     width: 0;
   }
 
-  a:hover:after { 
+  .navstyle:hover:after { 
     width: 100%; 
     left: 0; 
   }
@@ -154,7 +231,7 @@ body{
   }
 
   .active{
-      font-weight: 700;
+    font-weight: 700; 
   }
 
 
