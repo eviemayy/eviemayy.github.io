@@ -7,6 +7,10 @@ body{
     background: white;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .page-content{
     padding: 60px;
 }
@@ -110,18 +114,15 @@ body{
 .project-link{
     border-style: solid;
     border-color: #303453;
-    padding: 10px;
-    margin-top: 30px;
+    color: #303453;
+    padding: 20px;
+    margin-top: 50px;
     width: 150px;
     text-align: center;
+    text-decoration: none;
 }
 
 .project-link:hover{
-    border-style: solid;
-    border-color: #303453;
-    padding: 10px;
-    width: 150px;
-    text-align: center;
     color: white;
     background-color: #303453;
 }
@@ -266,3 +267,103 @@ img {
     justify-content: space-between;
 }
 
+
+ /************** CASE STUDY CSS **************/
+
+ .case-study-container{
+     margin: 0px 250px;
+     padding: 50px;
+ }
+
+ .case-study-cover{
+    text-align: center;
+    padding-bottom: 50px;
+ }
+
+ .case-study-title{
+     font-size: 4em;
+ }
+
+ .design-process{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+ }
+
+ .design-process-links{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ a.design-process-item{
+    font-family: 'Poppins', sans-serif;
+    color: #303453;
+    text-decoration: none;
+
+    border-style: solid;
+    border-color: #303453;
+    padding: 10px;
+    width: 110px;
+    color: #303453;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ a.design-process-item:hover{
+    font-family: 'Poppins', sans-serif;
+    color: #303453;
+    text-decoration: none;
+
+    border-style: solid;
+    border-color: #303453;
+    padding: 10px;
+    width: 110px;
+    color: white;
+    background-color: #303453;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.case-study-header{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+.case-study-img{
+    padding: 30px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.persona-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wireframes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wireframe-img{
+    height: 330px;
+    width: 250px;
+    border: solid;
+    margin: 5px;
+}
+
+.spacer{
+    padding: 15px;
+}
+
+.prototype-img{
+    height: 600px;
+    width: 800px;
+}
