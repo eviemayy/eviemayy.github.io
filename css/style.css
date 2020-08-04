@@ -352,7 +352,10 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
-
+.jobText{
+  text-decoration: underline;
+  text-decoration-color: #dbc65d;
+}
 
 /*---------------------------------------
   HEADER         
@@ -398,6 +401,10 @@ a:hover, a:active, a:focus {
   position: relative;
   display: block;
   margin: 22px auto 0 auto;
+}
+
+.about-text{
+  padding: 12px;
 }
 
 .about-service-text {
@@ -484,6 +491,10 @@ a:hover, a:active, a:focus {
   bottom: 0;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+}
+
+.selected-projects{
+  padding: 12px;
 }
 
 .project-overlay h3 {
@@ -760,6 +771,12 @@ a:hover, a:active, a:focus {
   left: 0;
 }
 
+.contact-link{
+  color: #19191f;
+}
+.contact-link:hover{
+  color: #dbc65d;
+}
 
 
 /*---------------------------------------
@@ -770,6 +787,7 @@ footer {
   background: #000000;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-top: 100px;
 }
 
 footer h2, footer h4 {
