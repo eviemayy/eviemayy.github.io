@@ -487,6 +487,7 @@ a:hover, a:active, a:focus {
 .project-item {
   overflow: hidden;
   position: relative;
+  margin-top: 10px;
   top: 0;
   bottom: 0;
   -webkit-transition: all ease-in-out 0.4s;
