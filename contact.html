@@ -9,7 +9,7 @@
 <meta name="author" content="peng lam">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Evie May - About</title>
+<title>Evie May - Contact</title>
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -57,14 +57,13 @@
 </div>
 
 
-
 <!-- HEADER -->
 <section id="header">
      <div class="container">
           <div class="row">
 
-               <div class="col-md-6 col-sm-12">
-                    <h2>About me.</h2>
+               <div class="col-md-6 col-sm-10">
+                    <h2>Contact me</h2>
                </div>
 
           </div>
@@ -72,72 +71,47 @@
 </section>
 
 
-<!-- ABOUT -->
-<section id="about">
+<!-- CONTACT -->
+<section id="contact">
      <div class="container">
           <div class="row">
 
-             <div class="col-md-12 col-sm-12">
-                    <div class="about-image">
-                         <img src="https://github.com/eviemayy.png" class="img-responsive" alt="">
-                    </div>
-               </div>
+               <!-- CONTACT FORM HERE -->
+               <form id="contact-form" role="form">
 
-               <div class="col-md-offset-2 col-md-8 col-sm-12">
-                    <div class="about-info">
-                         <h1>I'm always looking for new ways to learn and develop my skills.</h1>
-                         <p>My name is Evie! I'm a designer and developer currently based in Corvallis, Oregon. I'm a senior at Oregon State University studying 
-                            Computer Science with a focus in Human Computer Interaction and minoring in Psychology. Choosing this career path has given me a chance 
-                            to develop not only my coding skills, but research skills and a better grasp at human nature as well.</p> 
-                            <p>I've always considered myself to be a creative person. I also love problem solving, which is why UX design is my passion. I'm always 
-                              looking for new opportunities to improve my skills in user experience, web development, and graphic design.</p>  
-                            
-                    </div>
-               </div>
+                    <!-- IF MAIL SENT SUCCESSFULLY -->
+                    <h6 class="text-success">Your message has been sent successfully. </h6>
+                    
+                    <!-- IF MAIL SENDING UNSUCCESSFULL -->
+                    <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
 
-               <div class="col-md-offset-1 col-md-3 col-sm-4">
-                    <div class="about-service-text">
-                         <div class="section-title">
-                              <h3>Education</h3>
+                    <div class="col-md-4 col-sm-4">
+                         <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Name">
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <textarea class="form-control" rows="4" id="cf-message" name="cf-message" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4">
+                         <div class="section-btn">
+                              <button type="submit" class="form-control" id="cf-submit" name="submit"><span data-hover="Send Message">Send Message</span></button>
                          </div>
-                         <h4>Oregon State University<h4>
-                         <p>Computer Science with a focus in Human Computer Interaction and minor in Psychology - June 2021</p>
                     </div>
-               </div>
+              </form>
 
-               <div class="col-md-3 col-sm-4">
-                    <div class="about-service-text">
-                         <div class="section-title">
-                              <h3>Experience</h3>
-                         </div>
-                         <h4>User Experience Design Intern at CDK Global</h4>
-                         <p>June 2020 - August 2020</p>
-                         <h4>Undergraduate Research Assistant - EPIClab, Oregon State University</h4>
-                         <p>September 2019 - present</p>
-                    </div>
-               </div>
-
-               <div class="col-md-4 col-sm-4">
-                    <div class="about-service-text">
-                         <div class="section-title">
-                              <h3>Skills</h3>
-                         </div>
-                         <ul>
-                              <li>Front-end / HTML & CSS</li>
-                              <li>C / C++</li>
-                              <li>Python</li>
-                              <li>Adobe Creative Suite</li>
-                              <li>Sketch</li>
-                              <li>InVision</li>
-                              
-
-                         </ul>
-                    </div>
-               </div>
-
-               <div class="clearfix"></div>
-
-               
+              <!-- <div class="gmap col-md-12 col-sm-12">
+                    <div class="map-overlay"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8100922404838!2d144.96287095051238!3d-37.817916979652146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3e495e32dc26749f!2sEnvato!5e0!3m2!1sen!2smm!4v1498747627765" allowfullscreen></iframe>
+               </div>-->
 
           </div>
      </div>
@@ -177,6 +151,7 @@
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
 <script src="js/custom.js"></script>
 
 </body>
