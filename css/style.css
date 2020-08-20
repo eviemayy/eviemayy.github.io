@@ -218,6 +218,7 @@ a:hover, a:active, a:focus {
 .project-item img, #project-detail img,
 #client img, #blog img {
   width: 100%;
+  max-width: 400px;
 }
 
 
@@ -523,13 +524,39 @@ a:hover, a:active, a:focus {
   padding: 62px 82px;
 }
 
+.project-list-text{
+  padding: 0 82px 62px 82px;
+}
+
 .project-detail-info {
   padding: 12px 0 62px 0;
 }
 
-.project-detail-info h3:last-child {
-  margin-top: 0;
+.photo-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
+
+.prototype-photo-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  background-color: #E0E0E0;
+}
+
+img.img-responsive{
+  padding: 10px;
+}
+
+/*.project-detail-info h3:last-child {
+  margin-top: 0;
+}*/
 
 
 /*---------------------------------------
