@@ -126,6 +126,23 @@ p {
   transform-style: preserve-3d;
 }
 
+.view-res-btn{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 0 25px;
+  background: #dbc65d;
+  border-radius: 1px;
+  border-color: #dbc65d;
+}
+
+.view-res-btn:hover{
+  background: #000000;
+  border-color: #000000;
+}
+
 .csstransforms3d .section-btn a span::before,
 .csstransforms3d .section-btn button span::before {
   position: absolute;
@@ -525,7 +542,7 @@ a:hover, a:active, a:focus {
 }
 
 .project-list-text{
-  padding: 0 82px 62px 82px;
+  padding: 0 82px 62px 82px`;
 }
 
 .project-detail-info {
