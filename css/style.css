@@ -814,6 +814,21 @@ img.img-responsive{
   color: #dbc65d;
 }
 
+.img-overview-container{
+  display: flex;
+  justify-content:center;
+  padding: 20px;
+}
+
+.img-demo{
+  padding: 0px 25px;
+}
+
+.overview-txt{
+  width: 50%;
+  margin: 20px;
+}
+
 
 /*---------------------------------------
   FOOTER              
