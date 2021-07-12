@@ -125,8 +125,7 @@ p {
   letter-spacing: 0.5px;
   padding: 0 25px;
   background: #dbc65d;
-  border-radius: 1px;
-  border-color: #dbc65d;
+  border: none;
 }
 
 .view-res-btn:hover{
